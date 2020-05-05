@@ -33,5 +33,5 @@ jobs:
       with:
         app-name: 'attritionprediction'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f8a2857c2a6d4e6cbb80b1971bdf8a75 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_97bbd1a3b25b447084fc7b22a504997b }}
         package: './myapp.zip'
